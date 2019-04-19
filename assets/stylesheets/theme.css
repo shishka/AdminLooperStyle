@@ -2172,7 +2172,7 @@ textarea.form-control {
 }
 
 .invalid-feedback {
-  display: none;
+  display: block;
   width: 100%;
   margin-top: 0.25rem;
   font-size: 80%;
@@ -15130,7 +15130,7 @@ a.text-box:hover, a.text-box:focus {
   background: #00A28A;
   position: fixed;
   z-index: 1030;
-  top: 3.5rem;
+  top: 0; /** change {top:3.5rem;} */
   right: 100%;
   width: 100%;
   height: 4px;
